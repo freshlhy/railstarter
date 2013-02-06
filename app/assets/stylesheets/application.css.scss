@@ -2,7 +2,8 @@
 
 .wrapper {
   @include container;
-  @include showgrid;
+  background: image-url('grid.png');
+  height: 500px;
 }
 
 // etc.

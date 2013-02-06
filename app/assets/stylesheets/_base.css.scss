@@ -1,0 +1,19 @@
+$blueprint-grid-columns : 24;
+$blueprint-grid-width   : 30px;
+$blueprint-grid-margin  : 10px;
+$font-color             : #333;
+
+// Core Variables and Mixins
+@import 'variables', 'mixins';
+
+// CSS Reset
+@import 'reset';
+
+// Utility Classes
+@import 'utilities';
+
+// Grid
+//@import "blueprint/ie";
+@import "blueprint/grid";
+
+// etc.

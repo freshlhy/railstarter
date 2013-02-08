@@ -1,9 +1,95 @@
 @import "base";
 
+* html .column, * html .span-1, * html .span-2, * html .span-3, * html .span-4, * html .span-5, * html .span-6, * html .span-7, * html .span-8, * html .span-9, * html .span-10, * html .span-11, * html .span-12, * html .span-13, * html .span-14, * html .span-15, * html .span-16, * html .span-17, * html .span-18, * html .span-19, * html .span-20, * html .span-21, * html .span-22, * html .span-23, * html .span-24 {
+  display: inline;
+  overflow-x: hidden;
+}
+
+.container {
+  text-align: left;
+}
+
 .wrapper {
+
   @include container;
   background: image-url('grid.png');
-  height: 500px;
+
+  h1 {
+    @extend .typo-h1;
+  }
+
+  h5 {
+    @extend .typo-h5;
+  }
+
+  p {
+    margin: 0 0 1.5em;
+  }
+
+  .border {
+    @include border;
+  }
+  .span-8-last {
+    @include column(8, true);
+  }
+
+  .span-6-last {
+    @include column(6, true);
+  }
+
+  .span-12-border {
+    @include column(12);
+    @include border;
+  }
+
+  .span-12-last {
+    @include column(12, true);
+  }
+
+  .span-1-last {
+    @include column(1, true);
+  }
+
+  .span-1-border {
+    @include column(1);
+    @include border;
+  }
+
+  .span-14-last {
+    @include column(14, true);
+  }
+
+  .span-10-last {
+    @include column(10, true);
+  }
+
+  @for $n from 1 to $blueprint-grid-columns {
+    .span-#{$n} {
+      @include column($n);
+    }
+
+    .prepend-#{$n} {
+      @include prepend($n);
+    }
+
+    .append-#{$n} {
+      @include append($n);
+    }
+
+    .push-#{$n} {
+      @include push($n);
+    }
+
+    .pull-#{$n} {
+      @include pull($n);
+    }
+  }
+
+  .top {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
 }
 
 // etc.

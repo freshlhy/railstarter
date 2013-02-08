@@ -37,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="22" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.063716814">
               <folding />
             </state>
           </provider>
@@ -91,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_variables.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_variables.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="14" selection-start="849" selection-end="849" vertical-scroll-proportion="0.7769911">
+            <state line="30" column="14" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -792,20 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="22" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_typo.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="9" selection-start="433" selection-end="440" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_reset.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -828,9 +814,23 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_typo.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="9" selection-start="433" selection-end="440" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_variables.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="14" selection-start="849" selection-end="849" vertical-scroll-proportion="0.7769911">
+        <state line="30" column="14" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.063716814">
           <folding />
         </state>
       </provider>
